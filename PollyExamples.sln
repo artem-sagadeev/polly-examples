@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PollyExamples.RateLimit", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.RateLimitApp", "PollyExamples.RateLimitApp\PollyExamples.RateLimitApp.csproj", "{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PollyExamples.Fallback", "PollyExamples.Fallback", "{39C9603F-A6AE-4E5A-AD32-8D0145EF458D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.FallbackApp", "PollyExamples.FallbackApp\PollyExamples.FallbackApp.csproj", "{717CBE6D-42F9-412E-876D-34F13D1D67BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,10 +34,15 @@ Global
 		{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF8EF1C6-F6A3-441D-9030-F3B92E1DC9B1} = {EF4117F1-DD9A-44BC-8B39-FCF4D58C0DB1}
 		{AC303509-6155-4C3A-A74E-3849868E8671} = {EF4117F1-DD9A-44BC-8B39-FCF4D58C0DB1}
 		{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F} = {D8D39513-1065-4F09-BA01-AFFCBB5B77A5}
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA} = {39C9603F-A6AE-4E5A-AD32-8D0145EF458D}
 	EndGlobalSection
 EndGlobal
