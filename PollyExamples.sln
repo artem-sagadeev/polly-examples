@@ -4,25 +4,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PollyExamples.CircuitBreake
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PollyExamples.Timeout", "PollyExamples.Timeout", "{EF4117F1-DD9A-44BC-8B39-FCF4D58C0DB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.Timeout.Client", "PollyExamples.Timeout\PollyExamples.Timeout.Client\PollyExamples.Timeout.Client.csproj", "{DF8EF1C6-F6A3-441D-9030-F3B92E1DC9B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyExamples.Timeout.Client", "PollyExamples.Timeout\PollyExamples.Timeout.Client\PollyExamples.Timeout.Client.csproj", "{DF8EF1C6-F6A3-441D-9030-F3B92E1DC9B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.Timeout.Server", "PollyExamples.Timeout\PollyExamples.Timeout.Server\PollyExamples.Timeout.Server.csproj", "{AC303509-6155-4C3A-A74E-3849868E8671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyExamples.Timeout.Server", "PollyExamples.Timeout\PollyExamples.Timeout.Server\PollyExamples.Timeout.Server.csproj", "{AC303509-6155-4C3A-A74E-3849868E8671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.CircuitBreaker.Server", "PollyExamples.CircuitBreaker\PollyExamples.CircuitBreaker.Server\PollyExamples.CircuitBreaker.Server.csproj", "{C6F56963-49B5-48A4-9CB7-CA7797BF028F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyExamples.CircuitBreaker.Server", "PollyExamples.CircuitBreaker\PollyExamples.CircuitBreaker.Server\PollyExamples.CircuitBreaker.Server.csproj", "{C6F56963-49B5-48A4-9CB7-CA7797BF028F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.CircuitBreaker.Client", "PollyExamples.CircuitBreaker\PollyExamples.CircuitBreaker.Client\PollyExamples.CircuitBreaker.Client.csproj", "{DEC68802-FC3A-4065-BA1A-B7EE357E7FFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyExamples.CircuitBreaker.Client", "PollyExamples.CircuitBreaker\PollyExamples.CircuitBreaker.Client\PollyExamples.CircuitBreaker.Client.csproj", "{DEC68802-FC3A-4065-BA1A-B7EE357E7FFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PollyExamples.RateLimit", "PollyExamples.RateLimit", "{D8D39513-1065-4F09-BA01-AFFCBB5B77A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.RateLimitApp", "PollyExamples.RateLimitApp\PollyExamples.RateLimitApp.csproj", "{71FB0DDB-B774-40AE-8340-BD70C9A81D8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyExamples.RateLimitApp", "PollyExamples.RateLimitApp\PollyExamples.RateLimitApp.csproj", "{71FB0DDB-B774-40AE-8340-BD70C9A81D8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PollyExamples.Fallback", "PollyExamples.Fallback", "{39C9603F-A6AE-4E5A-AD32-8D0145EF458D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.FallbackApp", "PollyExamples.FallbackApp\PollyExamples.FallbackApp.csproj", "{717CBE6D-42F9-412E-876D-34F13D1D67BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyExamples.FallbackApp", "PollyExamples.FallbackApp\PollyExamples.FallbackApp.csproj", "{717CBE6D-42F9-412E-876D-34F13D1D67BA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PollyExamples.Benchmarks", "PollyExamples.Benchmarks", "{DDECF651-529C-4DB9-85A9-D0B04787B748}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.Benchmarks", "PollyExamples.Benchmarks\PollyExamples.Benchmarks.csproj", "{14CD7827-D795-4BD6-AB39-AD0351AD4772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyExamples.Benchmarks", "PollyExamples.Benchmarks\PollyExamples.Benchmarks.csproj", "{14CD7827-D795-4BD6-AB39-AD0351AD4772}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PollyExamples.Retry", "PollyExamples.Retry", "{8DF0B13D-0233-4E37-84D6-FAA35588E753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyExamples.RetryApp", "PollyExamples.Retry\PollyExamples.RetryApp\PollyExamples.RetryApp.csproj", "{A78C080F-3A65-4E71-86D6-91EAC953B60B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,14 +42,6 @@ Global
 		{AC303509-6155-4C3A-A74E-3849868E8671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC303509-6155-4C3A-A74E-3849868E8671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC303509-6155-4C3A-A74E-3849868E8671}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6F56963-49B5-48A4-9CB7-CA7797BF028F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6F56963-49B5-48A4-9CB7-CA7797BF028F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F56963-49B5-48A4-9CB7-CA7797BF028F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,19 +54,33 @@ Global
 		{71FB0DDB-B774-40AE-8340-BD70C9A81D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71FB0DDB-B774-40AE-8340-BD70C9A81D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71FB0DDB-B774-40AE-8340-BD70C9A81D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{14CD7827-D795-4BD6-AB39-AD0351AD4772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{14CD7827-D795-4BD6-AB39-AD0351AD4772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14CD7827-D795-4BD6-AB39-AD0351AD4772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14CD7827-D795-4BD6-AB39-AD0351AD4772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78C080F-3A65-4E71-86D6-91EAC953B60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78C080F-3A65-4E71-86D6-91EAC953B60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78C080F-3A65-4E71-86D6-91EAC953B60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78C080F-3A65-4E71-86D6-91EAC953B60B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF8EF1C6-F6A3-441D-9030-F3B92E1DC9B1} = {EF4117F1-DD9A-44BC-8B39-FCF4D58C0DB1}
 		{AC303509-6155-4C3A-A74E-3849868E8671} = {EF4117F1-DD9A-44BC-8B39-FCF4D58C0DB1}
-		{A25DE5D6-EF49-4AE9-8CE7-08F9D83D475F} = {D8D39513-1065-4F09-BA01-AFFCBB5B77A5}
-		{717CBE6D-42F9-412E-876D-34F13D1D67BA} = {39C9603F-A6AE-4E5A-AD32-8D0145EF458D}
 		{C6F56963-49B5-48A4-9CB7-CA7797BF028F} = {1A31F332-9E64-4275-835B-4B7AA16D92A1}
 		{DEC68802-FC3A-4065-BA1A-B7EE357E7FFC} = {1A31F332-9E64-4275-835B-4B7AA16D92A1}
 		{71FB0DDB-B774-40AE-8340-BD70C9A81D8D} = {D8D39513-1065-4F09-BA01-AFFCBB5B77A5}
+		{717CBE6D-42F9-412E-876D-34F13D1D67BA} = {39C9603F-A6AE-4E5A-AD32-8D0145EF458D}
 		{14CD7827-D795-4BD6-AB39-AD0351AD4772} = {DDECF651-529C-4DB9-85A9-D0B04787B748}
+		{A78C080F-3A65-4E71-86D6-91EAC953B60B} = {8DF0B13D-0233-4E37-84D6-FAA35588E753}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0FD38F3-D70D-480D-9A6C-60D95428BDEF}
 	EndGlobalSection
 EndGlobal
